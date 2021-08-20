@@ -21,7 +21,7 @@
 		<dependency>
 			<groupId>com.katalon</groupId>
 			<artifactId>com.katalon.platform</artifactId>
-			<version>1.0.17</version>
+			<version>1.0.18</version>
 		</dependency>
 
 		<!-- Slack plugin's dependencies -->
@@ -70,7 +70,7 @@
 					<instructions>
 						<Bundle-SymbolicName>${project.groupId}.${project.artifactId};singleton:=true</Bundle-SymbolicName>
 						<Bundle-Version>${project.version}</Bundle-Version>
-						<Import-Package></Import-Package>
+						<Import-Package/>
 						<DynamicImport-Package>*</DynamicImport-Package>
 						<_noee>true</_noee>
 						<_nouse>true</_nouse>
